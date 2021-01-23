@@ -1,0 +1,81 @@
+@import 'vars';
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $ff-os;
+  font-weight: $fw-rg;
+  line-height: 1.6;
+  color: #ffffff;
+
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: $clr-v;
+}
+
+h1 {
+  font-family: $ff-pp;
+  font-size: 1.5rem;
+  font-weight: $fw-bd;
+  margin-bottom: .5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+  opacity: .8;
+}
+
+.container {
+  width: 300px;
+  margin: 0 2.5em;
+}
+
+.card-info {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.header {
+  margin: 1.5em 0 3.9em 0;
+}
+
+.logo-huddle {
+  width: 130px;
+}
+
+.mockup {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 1em 6em;
+  border: unset;
+  border-radius: 2em;
+  color: $clr-v;
+}
+
+// footer
+
+footer {
+  text-align: center;
+  margin: 4em 0 3em;
+}
+
+.fab {
+  display: inline;
+  padding: 8px 9px;
+  margin: 0 5px;
+}
+
+.circle-icon {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+@import 'media-desktop';

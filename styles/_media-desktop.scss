@@ -1,0 +1,75 @@
+@media (min-width: 800px) {
+  
+  body {
+    max-width: 1440px;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: $clr-v;
+    background-repeat: repeat-y;
+    // background-attachment: ;
+    // padding: 0 2em;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 90%;
+    min-width: 1440px;
+    height: 100%;
+    padding: 0 2em;
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50px 40%;
+    row-gap: 8.8em;
+  }
+  
+  .header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .card-info {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    width: 87%;
+    margin-left: -14em;
+    text-align: left;
+    justify-self: center;
+
+    h1 {
+      font-size: 2.6rem;
+    }
+  }
+
+  .logo-huddle {
+    margin-top: 1.7em;
+    width: 200px;
+  }
+
+  .mockup {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+   justify-items: start; 
+
+    width: 100%;
+    height: 520px;
+    margin-left: -3.5em;
+    object-fit: contain;
+  }
+
+  footer {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    width: 200px;
+    align-self: flex-end;
+    margin: 0;
+    margin-bottom: -1.5em;
+    padding: 0 6em 0 13.4em; 
+    text-align: right;
+  }
+
+  button {
+    padding: 1.3em 3.8em;
+  }
+} 
