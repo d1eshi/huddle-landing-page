@@ -79,7 +79,6 @@ footer {
     background-image: url(../images/bg-desktop.svg);
     background-color: #674baf;
     background-repeat: repeat-y;
-    overflow: hidden;
   }
   .container {
     width: 90%;
