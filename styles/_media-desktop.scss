@@ -5,7 +5,10 @@
     background-image: url(../images/bg-desktop.svg);
     background-color: $clr-v;
     background-repeat: repeat-y;
+
+    overflow-x: hidden;
   }
+
 
   .container {
     width: 90%;
